@@ -1,0 +1,147 @@
+html{
+    font-family: 'Permanent Marker', cursive;
+}
+
+body{
+    background-image: url(/images/hallowen.jpg);
+    background-size:;
+    background-image: ;
+    background-size:cover;
+    
+    
+    
+}
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:rgba(238, 87, 32, 0.87);
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}    
+nav ul li a{
+    text-decoration: none;
+    padding:0.5ch;
+}
+nav ul li a:hover {
+    color:white;
+    background-color: rgb(250, 64, 17);
+    border-radius:40%;
+}
+    img{
+        
+        border-radius: 4ch;
+        
+    }
+    .formulario{
+        color: rgb(250, 64, 17);
+        display:flex;
+        justify-content: center;
+        
+        
+    
+    }
+    .bton:hover{
+        background-color: black;
+        color: orangered;
+
+    }
+    .descripcion{
+        display: flex;
+        justify-content: left;
+        text-align:left;
+        color: rgba(168, 16, 214, 0.836);
+        background-color: rgba(0, 0, 0, 0.479);
+    }
+    
+    iframe{
+        display: flex;
+        
+        border-radius: 3pc;
+    }
+    /*titulos*/
+    header{
+        display: flex;
+        
+    }
+    .TITcon{
+     color: orangered;
+     text-align: center;
+    }
+    h1{
+        color:grey;
+        
+        border-radius:20%;
+        font-size: 0.8cm;
+    } 
+    .tituloA{
+        border-radius:2ch;
+        background-color: rgba(0, 0, 0, 0.479);
+        display: flex;
+        flex-direction: column;
+        color: rgba(168, 16, 214, 0.836);
+    }
+    .TITcos{
+        display: flex;
+        justify-content: center;
+        color:orangered;
+    }   
+    /*costumes*/
+    .containerD{
+        padding: 4rem;
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    .card{
+        display: flex;
+        padding: 0.5rem 2rem;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: justify;
+        color:orangered;
+    }
+    .card{
+     
+     border-radius: 3pc;
+     
+    }
+    .card:hover{
+        background-color:rgba(8, 8, 8, 0.521);
+        transition-duration: 0.5s ;
+    }
+    .trailerM{
+        display: flex;
+        
+    }
+    .anniversary{
+        color: rgba(168, 16, 214, 0.836);
+        
+        border-radius:2ch;
+        display:flex;
+        justify-content: right;
+    }
+    .webs{
+        display:flex;
+        align-items:;
+        
+        justify-content: space-between;
+    }
+    .insta1 :hover{
+        transition: 1.5s;
+        transform: rotateY(180deg);
+    }
+    .insta2 :hover{
+        transition: 1.5s;
+        transform: rotatey(180deg);
+    }
+    .insta3 :hover{
+        transition: 1.5s;
+        transform: rotatey(180deg);
+    }
+    
+    
